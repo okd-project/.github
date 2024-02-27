@@ -14,4 +14,4 @@ We have a community of users and contributors. There is an active community on t
 OKD is goverened by a Working Group and we are always looking for volunteers and contributors to get involved. Please see our [Contributing page](https://www.okd.io/contributor/) and we hope to see you at a meeting or on our issue trackers soon!
 
 # What's here?
-Take a look at our pinned repositories for our most popular repositories or see our [Contents](CONTENTS.md) file for a more comprehensive index.
+Take a look at our pinned repositories for our most popular repositories or see our [Contents](/profile/CONTENTS.md) file for a more comprehensive index.
