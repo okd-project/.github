@@ -2,7 +2,7 @@ Hello, welcome to OKD
 ===
 OKD is a community distribution of [Kubernetes](https://kubernetes.io/) (K8s), a collection of software and design patterns to operate applications at scale.
 
-We're the upstream community to [RedHat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) and use broadly the same underlying technologies and components.
+We're the upstream to [RedHat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) and use broadly the same or similar underlying technologies and components.
 
 # Getting Started
 To get started with OKD and get a cluster online on your laptop or lab environment please go to our [website](https://www.okd.io/).
