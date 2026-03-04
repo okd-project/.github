@@ -8,10 +8,10 @@ We're the upstream to [RedHat OpenShift](https://www.redhat.com/en/technologies/
 To get started with OKD and get a cluster online on your laptop or lab environment please go to our [website](https://www.okd.io/).
 
 # Say Hello
-We have a community of users and contributors. There is an active community on the [K8s Slack](https://slack.k8s.io/) in [#openshift-users](https://kubernetes.slack.com/archives/C6AD6JM17) and we also have a mailing list and social media presence. Our [Community Page](https://www.okd.io/community/) has more information.
+We have a community of users and contributors. There is an active community on the [k8s Slack](https://slack.k8s.io/) in [#openshift-users](https://kubernetes.slack.com/archives/C6AD6JM17) and we also have a mailing list and social media presence. Our [community page](https://www.okd.io/community/charter) has more information.
 
 # Get Involved
-OKD is goverened by a Working Group and we are always looking for volunteers and contributors to get involved. Please see our [Contributing page](https://www.okd.io/contributor/) and we hope to see you at a meeting or on our issue trackers soon!
+OKD is goverened by a Working Group and we are always looking for volunteers and contributors to get involved. Please take a look at our [contributing page](https://www.okd.io/docs/community/contributor/). We hope to see you at a meeting or on our issue trackers soon!
 
 # What's here?
 Take a look at our pinned repositories for our most popular repositories or see our [Contents](/profile/CONTENTS.md) file for a more comprehensive index.
