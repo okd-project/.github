@@ -32,6 +32,15 @@ Direct all security questions and vulnerability reports to:
 We regularly perform releases that contain fixes for relevant security vulnerabilities and important bugs. Prior releases might receive critical security fixes on a best-effort basis. However, we cannot guarantee that security fixes will get back-ported to unsupported versions.
 
 - [OKD releases](https://amd64.origin.releases.ci.openshift.org/)
+## Secure Development Practices
+
+OKD uses OCP codebase, which follows established industry practices for secure development, including but not limited to:
+
+- **Mandatory peer review**: All code changes require review and approval via the [OWNERS file (https://git.k8s.io/community/contributors/guide/owners.md) model enforced by Prow. PRs cannot merge without at least one `/lgtm` from a reviewer and one `/approve` from a listed approver.
+- **CI-gated merges**: All pull requests must pass presubmit test jobs in [Prow](https://docs.prow.k8s.io/) before merging. CI job configuration is centralized in the [openshift/release](https://github.com/openshift/release) repository.
+- **Immutable release payloads**: Each OKD release is a container image containing a manifest of pinned image digests (SHA256), not mutable tags. The Cluster Version Operator orchestrates upgrades exclusively from payload contents.
+- **Image-based OS**: OKD runs on CentOS Stream CoreOS, an immutable, image-based operating system. OKD does not use RPM repositories at runtime.
+- **Vendored dependencies**: Go modules with vendored dependencies provide reproducible builds. Changes to `go.mod`, `go.sum`, or `vendor/` directories are automatically labeled for dedicated review scrutiny.
 
 ## EU Cyber Resilience Act — Open Source Steward Statement
 
