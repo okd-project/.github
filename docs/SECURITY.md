@@ -1,6 +1,6 @@
 # Reporting a Security Vulnerability or Incident
 
-Please do not report security vulnerabilities or security incidents via public channels (such as GitHub Issues, Pull Requests, or Discussions). To ensure coordinated disclosure, submit your findings via email to: `security@okd.io`
+Please do not report security vulnerabilities or security incidents via public channels (such as GitHub Issues, Pull Requests, or Discussions). To ensure coordinated disclosure, submit your findings via email to: `secalert@redhat.com`
 
 ## Submission Guidelines
 
@@ -25,7 +25,7 @@ Our goal is to assess the report, coordinate fix and disclosure as quickly as po
 
 Direct all security questions and vulnerability reports to:
 
-- **Email**: [security@okd.io](mailto:security@okd.io)
+- **Email**: [secalert@redhat.com](mailto:secalert@redhat.com)
 
 ## Supported Versions
 
