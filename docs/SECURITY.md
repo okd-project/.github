@@ -31,8 +31,7 @@ Direct all security questions and vulnerability reports to:
 
 We regularly perform releases that contain fixes for relevant security vulnerabilities and important bugs. Prior releases might receive critical security fixes on a best-effort basis. However, we cannot guarantee that security fixes will get back-ported to unsupported versions.
 
-- [OKD releases](https://github.com/okd-project/okd/releases)
-- [OKD SCOS releases](https://github.com/okd-project/okd-scos/releases)
+- [OKD releases](https://amd64.origin.releases.ci.openshift.org/)
 
 ## EU Cyber Resilience Act — Open Source Steward Statement
 
